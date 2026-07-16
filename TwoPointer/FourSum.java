@@ -21,7 +21,7 @@ public class FourSum {
 			nums[i] = sc.nextInt();
 		}
 
-		System.out.print("Enter the target: ");
+		System.out.print("Enter the target value: ");
 		int target = sc.nextInt();
 
 		List<List<Integer>> result = fourSum(nums, target);
